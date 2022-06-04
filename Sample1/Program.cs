@@ -21,6 +21,7 @@ namespace Sample1
             int b = Convert.ToInt32(b1);
             int min = (a > b) ? 1 : 2;
             Console.WriteLine(min);
+            //Edit new thing in Visual Studio without edit back in Github [automatic update]
         }
     }
 }
