@@ -15,7 +15,7 @@ class HelloWorld
 
   static void Main ()
   {
-    Console. Write("Bạn muốn chơi bao nhiêu ô: ");
+    Console. Write("How many square do you want to play: ");
     n = Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("So you want to play {0}x{0} board!", n, n);
     init ();
